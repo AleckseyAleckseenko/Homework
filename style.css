@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:OpenSans;
+}
+@font-face{
+	font-family:OpenSans;
+	src: url("font/OpenSans/OpenSans-Regular.ttf");
+	font-weight:normal;
+}
+@font-face{
+	font-family: OpenSans;
+	src:url("font/OpenSans/OpenSans-Bold.ttf");
+	font-weight: 700;
+}
+@font-face{
+	font-family:OpenSans;
+	src:url("font/OpenSans/OpenSans-ExtraBold.ttf");
+	font-weight:800;
+}
+@font-face{
+	font-family:OpenSans;
+	src: url("font/OpenSans/OpenSans-SemiBold.ttf");
+	font-weight: 600;
+}
+@font-face{
+	font-family:OpenSans;
+	src:url("font/OpenSans/OpenSans-BoldItalic.ttf");
+	font-weight:700;
+	font-style: italic;
+	
+}
+@font-face{
+	font-family:OpenSans;
+	src:url("font/OpenSans/OpenSans-ExtraBoldItalic.ttf");
+	font-weight:800;
+	font-style: italic;
+}
+@font-face{
+	font-family:OpenSans;
+	src: url("font/OpenSans/OpenSans-Italic.ttf");
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face{
+	font-family:OpenSans;
+	src: url("font/OpenSans/OpenSans-Light.ttf");
+	font-weight: 300;
+}
+@font-face{
+	font-family:OpenSans;
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face{
+	font-family: OpenSans;
+	src: url("font/OpenSans/OpenSans-SemiBoldItalic.ttf");
+	font-weight: 600;
+	font-style: italic;
+}
+#header{
+	background-color:#f6f2f2;
+	padding-top:29px;
+	height:688px;
+}
+#wrapper{
+	width:1249px;
+	margin:0 auto;
+	
+}
+#navigation{
+	background-color:#313030;
+	margin-bottom:103px;
+}
+#navigation ul{
+	text-align: center;
+	padding:45px 0;
+}
+#navigation ul li{
+	display: inline;	
+}
+#navigation ul li a{
+	text-decoration: none;
+	color:#d7d7d7;
+	font-weight:bold;
+	font-size:14px;
+	padding:45px 24px;
+	
+	
+}
+#navigation ul li a:hover{
+	background-color:#ff3f40;
+}
+
+.content_block_left{
+	width:589px;
+	float:left;
+}
+.content_block_left h3{
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 1.12;
+}
+.content_block_left blockquote{
+	font-weight:400;
+	font-size: 16px;
+	line-height: 1.75;
+	color:#9a9898;
+	margin-top:30px;
+}
+.content_block_left input{
+	font-weight: bold;
+	font-size:18px;
+	padding:21px 62px;
+	border-radius:10px;
+	background-color:#ff2d2d;
+	color:#fff4f4;
+	margin-top:60px;
+
+}
+.content_block_right{
+	width:552px;
+	float:right;
+}
+.content_block_right img{
+	padding:145px 235px;
+	background-color:#c4c0b1;
+}
